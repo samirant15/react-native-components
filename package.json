@@ -1,0 +1,19 @@
+{
+  "name": "@samirant15/react-native-components",
+  "version": "1.0.1",
+  "description": "React Native Components with Storybook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samirant15/react-native-components.git"
+  },
+  "author": "Samir Comprés",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samirant15/react-native-components/issues"
+  },
+  "homepage": "https://github.com/samirant15/react-native-components#readme"
+}
