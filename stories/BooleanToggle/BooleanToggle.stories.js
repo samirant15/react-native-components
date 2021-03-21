@@ -3,7 +3,7 @@ import { text } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import React from 'react';
 import CenterView from '../CenterView';
-import BooleanToggle from './BooleanToggle';
+import BooleanToggle from '../../components/BooleanToggle';
 
 storiesOf('BooleanToggle', module)
     .addDecorator((getStory) => <CenterView>{getStory()}</CenterView>)
