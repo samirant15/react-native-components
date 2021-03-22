@@ -24,3 +24,6 @@ const StorybookUIRoot = getStorybookUI({ asyncStorage: AsyncStorage });
 AppRegistry.registerComponent('%APP_NAME%', () => StorybookUIRoot);
 
 export default StorybookUIRoot;
+
+// Components
+export { default as BooleanToggle } from './components/BooleanToggle'
