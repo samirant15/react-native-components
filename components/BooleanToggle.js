@@ -35,11 +35,11 @@ const BooleanToggle = ({ value, controlled, onChange, positiveTxt, negativeTxt, 
                 <Button onPress={() => changeValue(false)} style={{ backgroundColor: negativeTxtColorBg || '#FF8585' }}><Text style={{ ...styles.bold, color: negativeTxtColorFg || '#B80000' }}>{negativeTxt || 'No'}</Text></Button>
             </ButtonGroup>
         ) : (
-                    <ButtonGroup size='small' appearance='outline' status='control'>
-                        <Button onPress={() => changeValue(true)} style={{ backgroundColor: neutralTxtColorBg || '#EAEAEC' }}><Text style={{ ...styles.bold, color: neutralTxtColorFg || '#000000' }}>{positiveTxt || 'Sí'}</Text></Button>
-                        <Button onPress={() => changeValue(false)} style={{ backgroundColor: neutralTxtColorBg || '#EAEAEC' }}><Text style={{ ...styles.bold, color: neutralTxtColorFg || '#000000' }}>{negativeTxt || 'No'}</Text></Button>
-                    </ButtonGroup>
-                )
+            <ButtonGroup size='small' appearance='outline' status='control'>
+                <Button onPress={() => changeValue(true)} style={{ backgroundColor: neutralTxtColorBg || '#EAEAEC' }}><Text style={{ ...styles.bold, color: neutralTxtColorFg || '#000000' }}>{positiveTxt || 'Sí'}</Text></Button>
+                <Button onPress={() => changeValue(false)} style={{ backgroundColor: neutralTxtColorBg || '#EAEAEC' }}><Text style={{ ...styles.bold, color: neutralTxtColorFg || '#000000' }}>{negativeTxt || 'No'}</Text></Button>
+            </ButtonGroup>
+        )
     )
 }
 
