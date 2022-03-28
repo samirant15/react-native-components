@@ -27,3 +27,4 @@ export default StorybookUIRoot;
 
 // Components
 export { default as BooleanToggle } from './components/BooleanToggle'
+export { default as BooleanToggle3State } from './components/BooleanToggle3State'
